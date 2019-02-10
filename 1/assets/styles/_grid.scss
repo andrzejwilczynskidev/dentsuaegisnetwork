@@ -1,0 +1,58 @@
+.container {
+	max-width: 1140px;
+	margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+	margin-right: -15px;
+    margin-left: -15px;
+    @include flex();
+}
+
+.col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-xs-12 {
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;    
+    margin-bottom: 30px;
+}
+
+.col-md-7 {
+	@include media-up(md) {		
+	    @include flex-col(0, 0, 58.333333%);
+	}
+	
+}
+
+.col-md-6 {
+	@include media-up(md) {		
+	    @include flex-col(0, 0, 50%);
+	}
+	
+}
+
+.col-md-5 {
+	@include media-up(md) {		
+	    @include flex-col(0, 0, 41.666666%);
+	}
+	
+}
+
+.col-md-4 {
+	@include media-up(md) {		
+	    @include flex-col(0, 0, 33.333333%);
+	}
+	
+}
+
+.col-md-3 {
+	@include media-up(md) {		
+	    @include flex-col(0, 0, 25%);
+	}
+	
+}

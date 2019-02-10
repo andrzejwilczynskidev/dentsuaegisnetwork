@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "name": "z5",
+  "version": "1.0.0",
+  "description": "Zadanie rekrutacyjne 5",
+  "author": "AW",
+  "license": "MIT"
+}
